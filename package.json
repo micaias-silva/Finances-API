@@ -1,0 +1,21 @@
+{
+  "name": "finances-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:micaias-silva/Finances-API.git",
+  "author": "Micaías Silva <micaiasilvaop@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node ./src/app.ts"
+  },
+  "dependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.14",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "pg": "^8.8.0",
+    "reflect-metadata": "^0.1.13",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.3"
+  }
+}
